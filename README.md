@@ -1,4 +1,4 @@
-## 💫 About Me
+# 💫 About Me
 
 I am a **Mechatronics Engineer** with a strong focus on **back-end systems, scientific computing, and computational physics**.
 

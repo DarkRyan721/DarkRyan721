@@ -1,8 +1,8 @@
 # 💫 About Me
 
-I am a **Mechatronics Engineer** with a strong focus on **back-end systems, scientific computing, and computational physics**.
+I am a **Mechatronics Engineer** with focus on **back-end systems, scientific computing, and computational physics**.
 
-My work centers on developing robust and scalable software for engineering applications, with particular emphasis on **simulation, and physics-based modeling**. I primarily use **Python, C/C++, and Linux-based workflows**, applying sound software engineering practices and version control.
+My work centers on developing scalable software for engineering applications, with particular emphasis on **simulation, and physics-based modeling**. I primarily use **Python, C/C++, and Linux-based workflows**, applying software engineering practices and version control.
 
 I am especially interested in simulation-driven engineering, aerospace-related systems, and computational research.
 

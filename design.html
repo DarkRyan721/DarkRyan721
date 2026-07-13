@@ -132,11 +132,13 @@
         grid-area: skills;
       }
       .label {
-        font-size: 12px;
+        text-align: center;
+        font-size: 15px;
         font-weight: 700;
         letter-spacing: 0.25em;
-        color: var(--muted);
+        color: var(--fg);
         margin-bottom: 16px;
+        letter-spacing: -0.5px;
       }
       /* bento: uniform icon tiles, consistent gap */
       .skills-grid {
@@ -236,19 +238,29 @@
     </style>
   </head>
   <body>
-    <button class="theme-toggle" aria-label="Toggle light/dark" onclick="toggleTheme()">
+    <button
+      class="theme-toggle"
+      aria-label="Toggle light/dark"
+      onclick="toggleTheme()"
+    >
       <svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+        <path
+          d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"
+        />
       </svg>
       <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/>
+        <path
+          d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"
+        />
       </svg>
     </button>
     <script>
       function currentTheme() {
         return (
           document.documentElement.dataset.theme ||
-          (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+          (matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light")
         );
       }
       function applyIconTheme(theme) {
@@ -266,15 +278,45 @@
       document.addEventListener("DOMContentLoaded", () =>
         applyIconTheme(currentTheme()),
       );
-      matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
-        if (!document.documentElement.dataset.theme) applyIconTheme(currentTheme());
-      });
+      matchMedia("(prefers-color-scheme: dark)").addEventListener(
+        "change",
+        () => {
+          if (!document.documentElement.dataset.theme)
+            applyIconTheme(currentTheme());
+        },
+      );
     </script>
+
     <div class="frame">
       <header class="title">
-        <h1>Miguel Angel Cera</h1>
-        <p>AI Backend Developer &amp; Computational Physical Systems</p>
+        <h1 style="letter-spacing: -2.5px">Miguel Angel Cera</h1>
+        <p style="letter-spacing: -1px">
+          AI Backend Developer &amp; Computational Physical Systems
+        </p>
       </header>
+
+      <figure class="img2">
+        <img
+          src="https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </figure>
+
+      <section class="profile">
+        <div class="label">PROFILE</div>
+        <p style="text-align: justify">
+          I build <strong>backend systems with AI-powered automation</strong> —
+          APIs, data pipelines, and LLM workflows that turn operational
+          complexity into working software.
+        </p>
+        <p style="text-align: justify">
+          My mechatronics background grounds that work in physics: my thesis, an
+          open-source
+          <strong>GPU-accelerated Hall-effect thruster simulator</strong>, was
+          awarded <strong><em>Laureada</em></strong> — the highest academic
+          distinction at Javeriana University.
+        </p>
+      </section>
 
       <section class="skills">
         <div class="label">SKILLS</div>
@@ -303,29 +345,6 @@
           alt=""
         />
       </figure>
-
-      <figure class="img2">
-        <img
-          src="https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
-      </figure>
-
-      <section class="profile">
-        <div class="label">PROFILE</div>
-        <p>
-          I build <strong>backend systems with AI-powered automation</strong> —
-          APIs, data pipelines, and LLM workflows that turn operational
-          complexity into working software.
-        </p>
-        <p>
-          My mechatronics background grounds that work in physics: my thesis, an
-          open-source
-          <strong>GPU-accelerated Hall-effect thruster simulator</strong>, was
-          awarded <strong><em>Laureada</em></strong> — the highest academic
-          distinction at Javeriana University.
-        </p>
-      </section>
 
       <footer class="footer">
         <div class="meta">BOGOTÁ, COLOMBIA&ensp;·&ensp;EN / ES</div>

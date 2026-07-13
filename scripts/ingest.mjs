@@ -30,7 +30,7 @@ for (const shape of ['wide', 'tall']) {
       await sharp(buf)
         .resize(w, h, { fit: 'cover' })
         .composite([{ input: mask, blend: 'dest-in' }])
-        .webp({ quality: 90 })
+        .webp({ quality: 82 })
         .toFile(out);
       manifest[shape][theme].push(out);
       console.log('✓', out);

@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v3-dark.svg">
-  <img width="832" height="112" src="assets/hero-v3-light.svg" alt="Miguel Angel Cera — AI Backend Developer & Computational Physical Systems"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v4-dark.svg">
+  <img width="832" height="112" src="assets/hero-v4-light.svg" alt="Miguel Angel Cera — AI Backend Developer & Computational Physical Systems"/>
 </picture>
 
 <br/>
@@ -22,8 +22,8 @@
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/meta-v2-dark.svg">
-  <img width="153" height="16" src="assets/meta-v2-light.svg" alt="Bogotá, Colombia"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/meta-v4-dark.svg">
+  <img width="153" height="16" src="assets/meta-v4-light.svg" alt="Bogotá, Colombia"/>
 </picture>
 
 </div>

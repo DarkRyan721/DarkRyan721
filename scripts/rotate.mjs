@@ -3,15 +3,15 @@
 // stable URLs, so GitHub's image cache stays warm.
 import fs from 'fs';
 
-const counts = JSON.parse(fs.readFileSync('assets/rows/manifest.json', 'utf8'));
+const counts = JSON.parse(fs.readFileSync('assets/rows-b/manifest.json', 'utf8'));
 const pick = (n) => Math.floor(Math.random() * n);
 
 const tpl = fs.readFileSync('README.template.md', 'utf8');
 const out = tpl
-  .replaceAll('{{ROW1_LIGHT}}', `assets/rows/row1-light-${pick(counts.row1.light)}.svg`)
-  .replaceAll('{{ROW1_DARK}}', `assets/rows/row1-dark-${pick(counts.row1.dark)}.svg`)
-  .replaceAll('{{ROW2_LIGHT}}', `assets/rows/row2-light-${pick(counts.row2.light)}.svg`)
-  .replaceAll('{{ROW2_DARK}}', `assets/rows/row2-dark-${pick(counts.row2.dark)}.svg`);
+  .replaceAll('{{ROW1_LIGHT}}', `assets/rows-b/row1-light-${pick(counts.row1.light)}.svg`)
+  .replaceAll('{{ROW1_DARK}}', `assets/rows-b/row1-dark-${pick(counts.row1.dark)}.svg`)
+  .replaceAll('{{ROW2_LIGHT}}', `assets/rows-b/row2-light-${pick(counts.row2.light)}.svg`)
+  .replaceAll('{{ROW2_DARK}}', `assets/rows-b/row2-dark-${pick(counts.row2.dark)}.svg`);
 
 fs.writeFileSync('README.md', out);
 console.log('README.md rendered');

@@ -19,7 +19,7 @@ for (const shape of ['wide', 'tall']) {
     const urls = cfg[shape][theme];
     for (let i = 0; i < urls.length; i++) {
       // strip any query params the URL carries; request a clean, right-sized source
-      const clean = `${urls[i].split('?')[0]}?q=85&w=${w}&h=${h}&fit=crop`;
+      const clean = `${urls[i].split('?')[0]}?q=90&w=${w}&h=${h}&fit=crop`;
       const res = await fetch(clean);
       if (!res.ok) throw new Error(`${res.status} on ${clean}`);
       const buf = Buffer.from(await res.arrayBuffer());
@@ -30,7 +30,7 @@ for (const shape of ['wide', 'tall']) {
       await sharp(buf)
         .resize(w, h, { fit: 'cover' })
         .composite([{ input: mask, blend: 'dest-in' }])
-        .webp({ quality: 85 })
+        .webp({ quality: 90 })
         .toFile(out);
       manifest[shape][theme].push(out);
       console.log('✓', out);

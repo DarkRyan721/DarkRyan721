@@ -1,0 +1,30 @@
+{
+  "wide": {
+    "light": [
+      "assets/photos/wide-light-0.webp",
+      "assets/photos/wide-light-1.webp",
+      "assets/photos/wide-light-2.webp",
+      "assets/photos/wide-light-3.webp"
+    ],
+    "dark": [
+      "assets/photos/wide-dark-0.webp",
+      "assets/photos/wide-dark-1.webp",
+      "assets/photos/wide-dark-2.webp",
+      "assets/photos/wide-dark-3.webp"
+    ]
+  },
+  "tall": {
+    "light": [
+      "assets/photos/tall-light-0.webp",
+      "assets/photos/tall-light-1.webp",
+      "assets/photos/tall-light-2.webp",
+      "assets/photos/tall-light-3.webp"
+    ],
+    "dark": [
+      "assets/photos/tall-dark-0.webp",
+      "assets/photos/tall-dark-1.webp",
+      "assets/photos/tall-dark-2.webp",
+      "assets/photos/tall-dark-3.webp"
+    ]
+  }
+}

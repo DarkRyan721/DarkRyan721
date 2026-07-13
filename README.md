@@ -2,21 +2,28 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v3-dark.svg">
-  <img width="100%" src="assets/hero-v3-light.svg" alt="Miguel Angel Cera — AI Backend Developer & Computational Physical Systems"/>
+  <img width="832" height="112" src="assets/hero-v3-light.svg" alt="Miguel Angel Cera — AI Backend Developer & Computational Physical Systems"/>
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rows/row1-dark-3.svg">
+  <img width="856" height="264" src="assets/rows/row1-light-0.svg" alt="Skills: Python, FastAPI, PostgreSQL, Docker, Azure, GitHub Actions, Git, Linux, C++, MATLAB, Java, Spring"/>
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rows/row2-dark-2.svg">
+  <img width="856" height="208" src="assets/rows/row2-light-2.svg" alt="Profile: I build backend systems with AI-powered automation — APIs, data pipelines, and LLM workflows that turn operational complexity into working software. My mechatronics background grounds that work in physics: my thesis, an open-source GPU-accelerated Hall-effect thruster simulator, was awarded Laureada — the highest academic distinction at Javeriana University."/>
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/meta-v2-dark.svg">
+  <img width="153" height="16" src="assets/meta-v2-light.svg" alt="Bogotá, Colombia"/>
 </picture>
 
 </div>
-
-<br/>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/photos/wide-dark-1.webp"><img align="right" width="60%" src="assets/photos/wide-light-1.webp" alt=""/></picture><picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-v3-dark.svg"><img width="37%" src="assets/skills-v3-light.svg" alt="Skills: Python, FastAPI, PostgreSQL, Docker, Azure, GitHub Actions, Git, Linux, C++, MATLAB, Java, Spring"/></picture>
-
-<br clear="both"/>
-
-<br/>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/photos/tall-dark-2.webp"><img align="left" width="37%" src="assets/photos/tall-light-1.webp" alt=""/></picture><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-v3-dark.svg"><img width="60%" src="assets/profile-v3-light.svg" alt="Profile: I build backend systems with AI-powered automation — APIs, data pipelines, and LLM workflows that turn operational complexity into working software. My mechatronics background grounds that work in physics: my thesis, an open-source GPU-accelerated Hall-effect thruster simulator, was awarded Laureada — the highest academic distinction at Javeriana University."/></picture>
-
-<br clear="both"/>
-
-<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/meta-v2-dark.svg"><img src="assets/meta-v2-light.svg" alt="Bogotá, Colombia"/></picture></div>

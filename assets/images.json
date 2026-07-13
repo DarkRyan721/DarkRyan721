@@ -1,0 +1,18 @@
+{
+  "wide": {
+    "light": [
+      "https://images.unsplash.com/photo-1712511630850-cb56ed083534?q=60"
+    ],
+    "dark": [
+      "https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=60"
+    ]
+  },
+  "tall": {
+    "light": [
+      "https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?q=80"
+    ],
+    "dark": [
+      "https://images.unsplash.com/photo-1446776754471-f39a8a4eb422?q=60"
+    ]
+  }
+}

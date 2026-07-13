@@ -9,13 +9,13 @@
 
 <br/>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/photos/wide-dark-2.webp"><img align="right" width="60%" src="assets/photos/wide-light-1.webp" alt=""/></picture><picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-v3-dark.svg"><img width="37%" src="assets/skills-v3-light.svg" alt="Skills: Python, FastAPI, PostgreSQL, Docker, Azure, GitHub Actions, Git, Linux, C++, MATLAB, Java, Spring"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/photos/wide-dark-1.webp"><img align="right" width="60%" src="assets/photos/wide-light-1.webp" alt=""/></picture><picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-v3-dark.svg"><img width="37%" src="assets/skills-v3-light.svg" alt="Skills: Python, FastAPI, PostgreSQL, Docker, Azure, GitHub Actions, Git, Linux, C++, MATLAB, Java, Spring"/></picture>
 
 <br clear="both"/>
 
 <br/>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/photos/tall-dark-1.webp"><img align="left" width="37%" src="assets/photos/tall-light-0.webp" alt=""/></picture><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-v3-dark.svg"><img width="60%" src="assets/profile-v3-light.svg" alt="Profile: I build backend systems with AI-powered automation — APIs, data pipelines, and LLM workflows that turn operational complexity into working software. My mechatronics background grounds that work in physics: my thesis, an open-source GPU-accelerated Hall-effect thruster simulator, was awarded Laureada — the highest academic distinction at Javeriana University."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/photos/tall-dark-2.webp"><img align="left" width="37%" src="assets/photos/tall-light-1.webp" alt=""/></picture><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile-v3-dark.svg"><img width="60%" src="assets/profile-v3-light.svg" alt="Profile: I build backend systems with AI-powered automation — APIs, data pipelines, and LLM workflows that turn operational complexity into working software. My mechatronics background grounds that work in physics: my thesis, an open-source GPU-accelerated Hall-effect thruster simulator, was awarded Laureada — the highest academic distinction at Javeriana University."/></picture>
 
 <br clear="both"/>
 

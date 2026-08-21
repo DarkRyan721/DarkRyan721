@@ -9,7 +9,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/rows-b/row1-dark-2.svg">
-  <img width="856" height="264" src="assets/rows-b/row1-light-0.svg" alt="Skills: Python, FastAPI, PostgreSQL, Docker, Azure, GitHub Actions, Git, Linux, C++, MATLAB, Java, Spring"/>
+  <img width="856" height="264" src="assets/rows-b/row1-light-1.svg" alt="Skills: Python, FastAPI, PostgreSQL, Docker, Azure, GitHub Actions, Git, Linux, C++, MATLAB, Java, Spring"/>
 </picture>
 
 <br/><br/>

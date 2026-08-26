@@ -15,7 +15,7 @@
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/rows-b/row2-dark-0.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rows-b/row2-dark-2.svg">
   <img width="856" height="208" src="assets/rows-b/row2-light-0.svg" alt="Profile: I build backend systems with AI-powered automation — APIs, data pipelines, and LLM workflows that turn operational complexity into working software. My mechatronics background grounds that work in physics: my thesis, an open-source GPU-accelerated Hall-effect thruster simulator, was awarded Laureada — the highest academic distinction at Javeriana University."/>
 </picture>
 
